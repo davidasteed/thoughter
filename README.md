@@ -19,24 +19,23 @@ Critical Path:
 7.  List changes to the file recent-thoughts.js ?
 
 What tech used for test:
-    "chai": "^3.5.0",
-    "karma": "^1.5.0",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-mocha": "^1.3.0",
-    "mocha": "^3.2.0",
-
-    Atom text editor
-    Chrome browser
-    jshint
+- "chai" "^3.5.0"
+- "karma" "^1.5.0"
+- "karma-chai" "^0.1.0"
+- "karma-chrome-launcher" "^2.0.0"
+- "karma-mocha" "^1.3.0"
+- "mocha" "^3.2.0"
+- Atom text editor
+- Chrome browser
+- jshint
 
 How to run the tests:
-    check out the repository
-    install test framework as follows:
-    $ npm init
-    $ npm install mocha --save-dev
-    $ npm install --save-dev karma chai karma-mocha karma-chai karma-chrome-launcher
+- check out the repository
+- install test framework as follows:
+- $ npm init
+- $ npm install mocha --save-dev
+- $ npm install --save-dev karma chai karma-mocha karma-chai karma-chrome-launcher
     
 How to get started?
-    npm test
+- npm test
 
