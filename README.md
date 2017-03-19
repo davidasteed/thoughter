@@ -5,9 +5,11 @@
 
         Author: David Steed
 
-        Project Purpose:  Learn to use testing framework further, and also learn to refactor code as necessary while composing and conducting unit tests.
+        Project Purpose:  Learn to use testing framework further, 
+        and also learn to refactor code as necessary while composing and conducting unit tests.
 
-        Assignment:  Use test framework (Mocha, Chai, Karma) to evaluate function window.thoughter.showRecent in file recent-thoughts.js.
+        Assignment:  Use test framework (Mocha, Chai, Karma) to 
+        evaluate function window.thoughter.showRecent in file recent-thoughts.js.
 
         Critical Path:
         1.  Validate one basic sanity check
@@ -48,17 +50,22 @@ _________
 
         Project Purpose:  Learn how to set up process automation using Grunt for an existing project.
 
-        Assignment:  Check out an instructor-created branch of our previous "Thoughter" repository, then install Grunt and all required plugins.  Write the Grunt configuration file and validate that "grunt build" will successfully execute all components required to construct a new "build".  Adventure mode:  install, configure, and validate grunt watch plugin.
+        Assignment:  Check out an instructor-created branch of our previous "Thoughter" repository, 
+        then install Grunt and all required plugins.  Write the Grunt configuration file and 
+        validate that "grunt build" will successfully execute all components required to construct a new "build".  
+        Adventure mode:  install, configure, and validate grunt watch plugin.
 
-        NOTE:  as instructed, we are not completing this task as there is a lecture required to understand better how to do this:
-        "All JS concatenated into a single app.js file, and in a js/ directory"
+        NOTE:  as instructed, we are not completing this task as there is a lecture required to 
+        understand better how to do this:
+                "All JS concatenated into a single app.js file, and in a js/ directory"
 
         Critical Path:
         1.  check out, merge from master, and switch to the "phase-two" branch
         2.  via Node Package Manager (npm), install dependencies for Grunt using --save-dev to update package.json
         3.  configure and validate operation from one Grunt task (such as a copy task:target)
         4.  complete task:targets for the remaining Grunt components of the repository:  copy files, sass, karma
-        5.  adventure mode:  configure and validate grunt watch (all), and grunt watch "registerTask" aliases for each watch component.
+        5.  adventure mode:  configure and validate grunt watch (all), 
+        and grunt watch "registerTask" aliases for each watch component.
 
         What tech used for test? 
         "devDependencies":   (via --save-dev option)
@@ -89,7 +96,8 @@ _________
           npm install --save-dev grunt-contrib-jshint
           npm install --save-dev grunt-karma
 
-        2.  Edit the gruntfile.js (saved in root directory) for each of the components.  See the file in the repo for example syntax.
+        2.  Edit the gruntfile.js (saved in root directory) for each of the components.  
+        See the file in the repo for example syntax.
 
         3.  Create the "build" code:
             a.  cd to the repo base directory
@@ -103,4 +111,5 @@ _________
           grunt watch   // for all watch tasks
           grunt htmlwatch   // or run one watch alias
 
-          Note:  grunt watch has also been set up watch for, and restart grunt, if the gruntfile.js is updated
+          Note:  grunt watch has also been set up watch for, 
+          and restart grunt, if the gruntfile.js is updated.
