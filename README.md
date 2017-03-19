@@ -52,7 +52,8 @@ _________
 
         Assignment:  Check out an instructor-created branch of our previous "Thoughter" repository, 
         then install Grunt and all required plugins.  Write the Grunt configuration file and 
-        validate that "grunt build" will successfully execute all components required to construct a new "build".  
+        validate that "grunt build" will successfully execute all components required 
+        to construct a new "build".  
         Adventure mode:  install, configure, and validate grunt watch plugin.
 
         NOTE:  as instructed, we are not completing this task as there is a lecture required to 
@@ -61,9 +62,11 @@ _________
 
         Critical Path:
         1.  check out, merge from master, and switch to the "phase-two" branch
-        2.  via Node Package Manager (npm), install dependencies for Grunt using --save-dev to update package.json
+        2.  via Node Package Manager (npm), install dependencies for Grunt using 
+        --save-dev to update package.json
         3.  configure and validate operation from one Grunt task (such as a copy task:target)
-        4.  complete task:targets for the remaining Grunt components of the repository:  copy files, sass, karma
+        4.  complete task:targets for the remaining Grunt components of the repository:  
+        copy files, sass, karma
         5.  adventure mode:  configure and validate grunt watch (all), 
         and grunt watch "registerTask" aliases for each watch component.
 
