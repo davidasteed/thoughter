@@ -162,7 +162,6 @@
 
         expect(multiThoughtCheck).to.be.ok;
       });
-
   });
 
   describe('getRecent function', function(){
